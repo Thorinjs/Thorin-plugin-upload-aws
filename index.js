@@ -13,6 +13,17 @@ module.exports = function(thorin, opt, pluginName) {
   thorin.on(thorin.EVENT.INIT, 'plugin.' + opt.uploader, (pluginObj) => {
     const AwsStorage = initStore(thorin, opt, pluginObj.IStorage);
     pluginObj.registerStorageClass('aws', AwsStorage);
+    /*
+     * Manually create a storage instance.
+     * */
+    pluginObj.create = function CreateInstance(name, opt) {
+      return new AwsStorage(opt, name);
+    }
   });
+
+  const pluginObj = {};
+  pluginObj.options = opt;
+
+  return pluginObj;
 };
 module.exports.publicName = 'upload-aws';
