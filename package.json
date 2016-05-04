@@ -1,0 +1,19 @@
+{
+  "name": "thorin-plugin-upload-aws",
+  "author": "Stiudeo",
+  "version": "1.0.1",
+  "dependencies": {
+    "aws-sdk": "^2.3.8"
+  },
+  "description": "Thorin.js AWS Upload storage",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stiudeo/Thorin-plugin-upload-aws"
+  },
+  "homepage": "http://thorinjs.com",
+  "bugs": {
+    "url": "https://github.com/Stiudeo/Thorin-plugin-upload-aws/issues"
+  }
+}
