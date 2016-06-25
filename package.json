@@ -1,7 +1,7 @@
 {
   "name": "thorin-plugin-upload-aws",
   "author": "Stiudeo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "dependencies": {
     "aws-sdk": "^2.3.8"
   },
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stiudeo/Thorin-plugin-upload-aws"
+    "url": "https://github.com/Thorinjs/Thorin-plugin-upload-aws"
   },
   "homepage": "http://thorinjs.com",
   "bugs": {
-    "url": "https://github.com/Stiudeo/Thorin-plugin-upload-aws/issues"
+    "url": "https://github.com/Thorinjs/Thorin-plugin-upload-aws/issues"
   }
 }
