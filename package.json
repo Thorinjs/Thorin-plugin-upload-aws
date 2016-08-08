@@ -1,9 +1,9 @@
 {
   "name": "thorin-plugin-upload-aws",
   "author": "Stiudeo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "dependencies": {
-    "aws-sdk": "^2.3.8"
+    "aws-sdk": "2.4.13"
   },
   "description": "Thorin.js AWS Upload storage",
   "main": "index.js",
