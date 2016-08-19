@@ -1,7 +1,7 @@
 {
   "name": "thorin-plugin-upload-aws",
   "author": "Stiudeo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "aws-sdk": "2.4.13"
   },
