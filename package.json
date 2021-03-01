@@ -1,9 +1,9 @@
 {
   "name": "thorin-plugin-upload-aws",
   "author": "UNLOQ Systems",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "dependencies": {
-    "aws-sdk": "2.659.0"
+    "aws-sdk": "2.853.0"
   },
   "description": "Thorin.js AWS Upload storage",
   "main": "index.js",
