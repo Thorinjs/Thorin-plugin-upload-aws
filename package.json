@@ -3,7 +3,7 @@
   "author": "UNLOQ Systems",
   "version": "1.0.18",
   "dependencies": {
-    "aws-sdk": "2.617.0"
+    "aws-sdk": "2.814.0"
   },
   "description": "Thorin.js AWS Upload storage",
   "main": "index.js",
