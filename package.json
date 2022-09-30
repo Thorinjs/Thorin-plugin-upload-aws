@@ -1,7 +1,7 @@
 {
   "name": "thorin-plugin-upload-aws",
   "author": "UNLOQ Systems",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "dependencies": {
     "aws-sdk": "^2.1219.0"
   },
